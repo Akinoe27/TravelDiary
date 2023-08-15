@@ -8,16 +8,21 @@ body {
     padding-top: 0;
 }
 
-article p {
+p {
     margin: 10px;
     font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
+    font-size: 35px;
     text-align: center;
     color: brown;
 }
-
-article aside {
+h4 {
+   
+  font-style: italic;
+  font-size: large;
+}
+ 
+aside {
     text-align: center;
     background-color: aliceblue;
     margin-bottom:
@@ -28,19 +33,26 @@ header {
     background-color: powderblue;
     padding: 10px;
     text-align: center;
-    color: black;
+    color: blue;
     border: #ddd;
-    font-size: 2cm;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-bottom: 10px solid #ddd;
-}
-
-.Image {
-    width: 60%;
-    height: 0%;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 7px solid #ddd;
+    font-weight: bold;
+    
 }
 
 img {
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img1 {
     width: 70%;
     height: 20%;
     display: block;
@@ -98,22 +110,27 @@ main {
     margin: 15px;
 }
 
-h2,
-h3 {
-    border-bottom: 10px solid #ddd;
-    background-color: aliceblue;
+h2 {
+    border-bottom: 7px solid #ddd;
+    background-color: paleturquoise;
     text-align: center;
     text-decoration-line: underline;
+    font-size: 40px;
+    margin: 0;
+    color: blue;
+}
+
+h3{
+    border-bottom: 2px solid #ddd;
     font-size: xx-large;
     margin: 0;
-
+    color: blue;
 }
 
 footer {
-    background-color: #333;
-    background-color: palevioletred;
+    background-color: powderblue;
     border: #333;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -122,4 +139,14 @@ footer {
 aside a:hover {
     color:red;
     transition: .3s;
+}
+.button {
+    border: none;
+    background: paleturquoise;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
 }
